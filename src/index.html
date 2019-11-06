@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<!--公共部分css-->
+		<link rel="stylesheet" type="text/css" href="./css/common~hash.css">
+		<link rel="stylesheet" type="text/css" href="./lib/swiper-4.3.3.min.css">
+		<!--添加自己的css，如果没有就删掉-->
+		<link rel="stylesheet" type="text/css" href="./css/index~hash.css">
+		<!--公共部分js-->
+		<script src="./lib/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/common~hash.js" type="text/javascript" charset="utf-8"></script>
+		<!--添加自己的js，如果没有就删掉-->
+		<script src="./js/index~hash.js" type="text/javascript" charset="utf-8"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				new Common();
+				new Main();
+			});
+		</script>
+	</head>
+	<body>
+		<div class="all">
+@@include('include/header.html')
+		<div class="content">首页12</div>
+@@include('include/footer.html')
+		</div>
+	</body>
+</html>
